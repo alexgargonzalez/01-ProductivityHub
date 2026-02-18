@@ -1,0 +1,42 @@
+.pomodoro-timer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30%;
+    margin-left: 2.8rem;
+    flex-direction: column;
+
+    h1 {
+        font-size: 5rem;
+        color: #fff;
+    }
+
+    .timer {
+        font-size: 4rem;
+        color: #fff;
+         width: 100%;
+         text-align: center;
+    }
+
+    .controls {
+        margin-top: 2rem ;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:active {
+            background-color: #004288;
+        }
+    }
+}
