@@ -16,7 +16,7 @@ export function Pomodoro() {
           confetti();
           setActivo(false);
           clearInterval(intervalo);
-          return 0
+          return 0;
         }
         return s - 1;
       });
