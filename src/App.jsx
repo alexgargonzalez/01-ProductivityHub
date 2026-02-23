@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Header } from './structure/Header'
 import { Pomodoro } from './structure/PomodoroTimer'
+import { TaskList } from './structure/TaskList'
+
 function App() {
   return (
 
@@ -11,6 +13,7 @@ function App() {
       <Header />
       <main>
         <Pomodoro />
+        <TaskList />
       </main>
     </section>
   )

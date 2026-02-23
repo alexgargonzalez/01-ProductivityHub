@@ -3,7 +3,7 @@ import "./styles/pomodorotimer.css";
 import confetti from "canvas-confetti";
 
 export function Pomodoro() {
-  const [segundos, setSegundos] = useState(3);
+  const [segundos, setSegundos] = useState(1500);
   const [activo, setActivo] = useState(false);
 
   useEffect(() => {
